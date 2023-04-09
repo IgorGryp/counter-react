@@ -4,7 +4,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  background-color: #00176b;
+  background: url(./assets/img/img.jpg);
 }
 
 .App {
@@ -50,7 +50,7 @@ button {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: rgb(67, 65, 65);
+  background-color: rgb(180, 180, 180);
   color: #fff;
   box-shadow: 2px 2px 30px #000000;
   border: 1px solid #fff;
@@ -80,8 +80,12 @@ button:active {
   }
 
   h2 {
-    width: 150px;
+    width: 180px;
     font-size: 6rem;
+  }
+
+  .counter {
+    margin: 8rem 0 4rem 0;
   }
 
   .minus {
